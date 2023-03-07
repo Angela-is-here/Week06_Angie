@@ -25,15 +25,14 @@ class Document: ObservableObject {
         print("Model init")
         // items for testing
         items = [
-            // ItemModel(urlStr: imageArray[0], label:"Dan O"),
-            // ItemModel(urlStr: imageArray[1], label:"Ari"),
-            // ItemModel(urlStr: imageArray[2], label:"Gabe"),
-            // ItemModel(urlStr: imageArray[3], label:"Sarah"),
-            // ItemModel(urlStr: imageArray[4], label:"Clay"),
-            // ItemModel(urlStr: imageArray[5], label:"Katherine"),
-            // ItemModel(urlStr: imageArray[6], label:"Pedro"),
-            // ItemModel(urlStr: imageArray[7], label:"Luisa"),
-            // ItemModel(urlStr: imageArray[8], label:"Raaziq"),
+             ItemModel(urlStr: imageArray[3], label:"cat3"),
+             ItemModel(urlStr: imageArray[4], label:"cat4"),
+             ItemModel(urlStr: imageArray[5], label:"cat5"),
+             ItemModel(urlStr: imageArray[6], label:"cat6"),
+             ItemModel(urlStr: imageArray[7], label:"cat7"),
+             ItemModel(urlStr: imageArray[8], label:"cat8"),
+             ItemModel(urlStr: imageArray[9], label:"cat9"),
+             ItemModel(urlStr: imageArray[10], label:"cat10"),
             ItemModel(urlStr: imageArray[2], label:"cat cat cat", assetName: "red", systemName: "rectangle", altText: "plz add the alt text !"),
             ItemModel(urlStr: imageArray[1], label:"Cutey", assetName: "yellow", altText: "a cat with brown hair and green eyes is staring at a camera in front angle with its hand slightly put on white box"),
             ItemModel(urlStr: imageArray[0], label:"cat", systemName: "", altText: "chubby brown haired car staring the camera, shot in high angle"),
